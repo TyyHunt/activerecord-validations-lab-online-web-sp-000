@@ -11,5 +11,5 @@ class Post < ActiveRecord::Base
       errors[:title]
     end
   end
-      
+
 end
