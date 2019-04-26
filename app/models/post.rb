@@ -6,5 +6,5 @@ class Post < ActiveRecord::Base
   validates :clickbait, confirmation: true
 
 
-  ["Won't Believe", "Secret", "Top [number]", "Guess"]
+  bait_title = ["Won't Believe", "Secret", "Top [number]", "Guess"]
 end
